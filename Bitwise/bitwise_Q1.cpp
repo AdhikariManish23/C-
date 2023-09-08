@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
 
-    /* given a number like 322 
-        firstly it will multopily and then add after that
-         it subtract sum from prod */
+    /* given */
 
     int product_and_sum(int n){
         
