@@ -3,7 +3,9 @@ using namespace std;
     int number_of_bits( int n){
         int count = 0;
         while(n!=0){
-            //checking last bit
+        /* convert bits into decimal by calculating bits here n = bits
+         for example bits = 00000000000000000000000000001011
+                     digit = 1011     */
             if(n&1){
                 count++;
             }
