@@ -2,7 +2,9 @@
 #include<math.h>
 using namespace std;
 
-    /* convert bits into decimal by calculating digit here n = digit
+    /*   binary into decimal
+    
+     convert bits into decimal by calculating digit here n = digit
          for example bits = 00000000000000000000000000001011
                      digit = 1011     */
     

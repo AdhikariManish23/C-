@@ -3,9 +3,11 @@ using namespace std;
     int number_of_bits( int n){
         int count = 0;
         while(n!=0){
-        /* convert bits into decimal by calculating bits here n = bits
-         for example bits = 00000000000000000000000000001011
-                     digit = 1011     */
+        
+        /* write a function that takes a unsigned integer and return the number of '1' bits.
+           for Example : input n = 0000 0000 0000 0000 0000 0000 0000 0101
+                         output  = 2 */
+           
             if(n&1){
                 count++;
             }
