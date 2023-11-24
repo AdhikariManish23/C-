@@ -1,10 +1,17 @@
+
+
+// /*   Decimal into bits
+// printing decimal number into binary form 
+
+
+// NOTE: but this code will not run in VSCode */
+
+
+
 #include<iostream>
 #include<math.h>
 using namespace std;
-/*   Decimal into bits
 
-printing decimal number into binary form 
-note: but this code will not run in VSCode */
 
 int main() {
 
@@ -26,5 +33,5 @@ int main() {
     }
 
     cout<<" Answer is " << ans << endl;
-    
+    return 0;
 }
