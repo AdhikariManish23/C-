@@ -13,10 +13,14 @@ int main() {
     cout << * it << " ";
   }
   cout << endl;
+  
+  
   int n = 2;
   if (s.find(2) != s.end())
     cout << n << " is present in multiset" << endl;
 
+  
+  
   s.erase(s.begin());
   cout << "Elements after deleting the first element: ";
   for (auto it = s.begin(); it != s.end(); it++) {
@@ -30,6 +34,9 @@ int main() {
     cout << "The multiset is not empty " << endl;
   else
     cout << "The multiset is empty" << endl;
+ 
+  
+  cout<<endl;
   s.clear();
   cout << "Size of the multiset after clearing all the elements: " << s.size();
 }
