@@ -8,10 +8,10 @@ void printstack(stack<int> s1)
         s1.pop();
     }
     /*A while loop is used to iterate through the elements of s1.
-     In each iteration, the top element of s1 is printed using cout,
-      followed by a newline character (\n),
-       and then the top element is popped off the stack using s1.pop().
-     This continues until s1 becomes empty.
+    In each iteration, the top element of s1 is printed using cout,
+    followed by a newline character (\n),
+    and then the top element is popped off the stack using s1.pop().
+    This continues until s1 becomes empty.
     */
 }
 int main()

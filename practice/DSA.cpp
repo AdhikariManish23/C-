@@ -1,14 +1,26 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-    int main(){
-    // int a , b ;
-    // cout<<"Enter your name a "<<endl;
-    // cin>>a;
-    // cout<<"Enter your name b "<<endl;
-    // cin>>b;
-    // cout<<"sum of a and b is : "<< a+b;
-    //  return 0;
+    void moveZerose(vector<int>arr){
 
-    int a = -5;
-    cout<<a;
+        int i = 0;
+        for(int j = 0; j <arr.size() ; j++){
+            if(arr[j] != 0){
+                swap(arr[j], arr[i]);
+                i++;
+            }
+        }
+
+    }
+
+
+    int main(){
+    vector<int>arr= {2,0,1,0,0,3,0,0};
+
+    moveZerose(arr);
+
+    for(auto it : arr){
+        cout<<it<<" ";
+    }
+
+     return 0;
 }
